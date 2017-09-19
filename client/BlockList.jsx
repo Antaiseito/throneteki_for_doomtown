@@ -59,7 +59,7 @@ class InnerBlockList extends React.Component {
         }
 
         let content;
-        let blockList = _.map(this.props.blockList, user => {
+        let blockList = _.map(this.props.blockList.sort(), user => {
             return (
                 <tr key={ user }>
                     <td>{ user }</td>
