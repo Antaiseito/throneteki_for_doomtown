@@ -63,6 +63,7 @@
     "react-redux-toastr": "^7.1.5",
     "redux": "^3.7.2",
     "redux-thunk": "^2.1.0",
+    "request": "file:request",
     "sass-loader": "^6.0.6",
     "socket.io": "^1.7.4",
     "socket.io-client": "^1.7.4",
